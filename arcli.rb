@@ -2,16 +2,16 @@
 class Arcli < Formula
   desc "Software architecture made simple"
   homepage ""
-  version "0.0.2"
+  version "0.0.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/koderizer/arc/releases/download/v0.0.2/arc_0.0.2_darwin_amd64.tar.gz"
-    sha256 "2c17a31fc17d4d32e41d922b4116e9e1f8771cbc585f3ffb3ea036ef6c400c61"
+    url "https://github.com/koderizer/arc/releases/download/v0.0.3/arc_0.0.3_darwin_amd64.tar.gz"
+    sha256 "a8da1132d6e7a2c081dae9e985d708785f2a72aa1380b789a7dd107443ddfd6e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/koderizer/arc/releases/download/v0.0.2/arc_0.0.2_linux_amd64.tar.gz"
-      sha256 "0b982e5b6385ffe1030bd1bf44230dd34551284370bbe04181c6fd354caf3449"
+      url "https://github.com/koderizer/arc/releases/download/v0.0.3/arc_0.0.3_linux_amd64.tar.gz"
+      sha256 "55694bfb4e52e6b40f56644aac50749644fee4c7c96441e496222b3bd5f616c5"
     end
   end
 
